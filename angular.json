@@ -24,9 +24,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/video-js.min.css",
+              "src/assets/videojs.record.css"
             ],
-            "scripts": []
+            "scripts": [
+  
+              "src/RecordRTC.js",
+              "src/video.min.js",
+              "src/adapter.js",
+              "src/videojs.record.js",
+              "src/video.js",
+              "src/browser-workarounds.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,9 +100,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/script.js",
+              "src/RecordRTC.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           }
         },
         "lint": {
