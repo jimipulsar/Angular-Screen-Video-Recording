@@ -36,7 +36,8 @@
               "src/adapter.js",
               "src/videojs.record.js",
               "src/video.js",
-              "src/browser-workarounds.js"
+              "src/browser-workarounds.js",
+              "node_modules/jquery/dist/jquery.min.js"
             ]
           },
           "configurations": {
